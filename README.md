@@ -10,8 +10,8 @@ Goals
   * Compile to JavaScript so it runs in the browser
   * Useful for (web)apps
 * Simplicity
-  * unify synchronous and asynchronous function calls
-  * minimize symbol and keyword clutter
+  * Unify synchronous and asynchronous control flow
+  * Minimize symbol and keyword clutter
   * gem/npm-style modules, requirejs by default
 * Human readable
   * Something like Ruby/CoffeeScript-style control flow
