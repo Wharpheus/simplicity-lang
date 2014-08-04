@@ -1,7 +1,7 @@
 Simplicity Programming Language
 ===============================
 
-A compile-to-JavaScript language aiming to minimize complexity.
+A language that minimizes complexity
 --
 
 Goals
