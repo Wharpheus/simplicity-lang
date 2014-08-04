@@ -1,0 +1,27 @@
+//var q = require("q");
+//require("require");
+
+//require(["q", "http.ez"], function(q) {
+
+  response = http.get("twitter.com/redskyforge.json")
+
+  each response.followers as follower {
+    console.log(follower.name);
+  }
+  // response.then(function(r) {
+  //   console.log(r.followers);
+  // });
+
+  // each follower from response.followers {
+  //   console.log(follower);
+  // }
+  /*
+  followers.each(follower) {
+    profile_pictures.add(twitter.get_profile_picture(follower.user))
+  }
+
+  when(profile_pictures.ready) {
+    render.using.list_of_images(profile_pictures)
+  }
+  */
+//});
