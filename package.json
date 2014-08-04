@@ -16,6 +16,7 @@
 		"through2": "*",
 		"lodash": "*",
 		"requirejs": "*",
+		"jquery": "^2.1.1",
 		"q": "*"
 	}
 }
