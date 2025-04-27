@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Simplicity Compiler",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "args": ["${input:inputFile}"],
+            "preLaunchTask": "build",
+            "cwd": "${workspaceFolder}"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "programPath",
+            "description": "Select the program to debug",
+            "options": [
+                "compile.js",
+                "gulpfile.js"
+            ]
+        },
+        {
+            "type": "promptString",
+            "id": "inputFile",
+            "description": "Enter the input file name (without extension, e.g., 'twitter')"
+        }
+    ]
+}
